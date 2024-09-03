@@ -1,5 +1,7 @@
 <a id="readme-top"></a>
 
+![Design preview for the Space tourism multi-page website coding challenge](./public/assets/home/background-home-desktop.jpg)
+
 <h3 align="center">Space Travel Website</h3>
 
   <p align="center">
@@ -36,26 +38,23 @@ This is a solution to the [Space tourism multi-page website challenge on Fronten
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 ### Built With
 
-* [![React][React.js]][React-url]
-* [![Next][Next.js]][Next-url]
-* [![Typescript][Typescript]][Typescript-url]
+- [![React][React.js]][React-url]
+- [![Next][Next.js]][Next-url]
+- [![Typescript][Typescript]][Typescript-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 <!-- GETTING STARTED -->
+
 ## Getting Started
 
 To get a local copy up and running, follow these simple steps.
 
 ### Prerequisites
 
-* npm
+- npm
   ```sh
   npm install npm@latest -g
   ```
@@ -95,17 +94,16 @@ To get a local copy up and running, follow these simple steps.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 <!-- LICENSE -->
+
 ## License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 <!-- CONTACT -->
+
 ## Contact
 
 Mateusz Zalewski - [LinkedIn](https://www.linkedin.com/in/mateusz-zalewski-327862197/) - zalewmat31@gmail.com
@@ -114,9 +112,9 @@ Project Link: [https://github.com/MateuszZalew/space-travel](https://github.com/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+
 [contributors-shield]: https://img.shields.io/github/contributors/github_username/repo_name.svg?style=for-the-badge
 [contributors-url]: https://github.com/github_username/repo_name/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/github_username/repo_name.svg?style=for-the-badge
@@ -145,7 +143,7 @@ Project Link: [https://github.com/MateuszZalew/space-travel](https://github.com/
 [Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
 [Bootstrap-url]: https://getbootstrap.com
 [JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
-[JQuery-url]: https://jquery.com 
+[JQuery-url]: https://jquery.com
 [Typescript]: https://shields.io/badge/TypeScript-3178C6?logo=TypeScript&logoColor=FFF&style=flat-square
 [Typescript-url]: https://www.typescriptlang.org/
 [Tailwind]: https://img.shields.io/badge/tailwindcss-0F172A?&logo=tailwindcss
