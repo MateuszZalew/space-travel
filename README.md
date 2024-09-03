@@ -1,6 +1,6 @@
 <a id="readme-top"></a>
 
-![Design preview for the Space tourism multi-page website coding challenge](./public/assets/home/background-home-desktop.jpg)
+![Design preview for the Space tourism multi-page website coding challenge](./public/assets/preview.jpg)
 
 <h3 align="center">Space Travel Website</h3>
 
