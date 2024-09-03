@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Nav from "./components/nav";
 
 export default function Home() {
@@ -20,12 +21,12 @@ export default function Home() {
           </p>
         </div>
         <div className="button-container">
-          <a
-            href="#"
+          <Link
+            href="/destination"
             className="large-button uppercase ff-serif text-dark bg-white"
           >
             Explore
-          </a>
+          </Link>
         </div>
       </main>
     </div>
