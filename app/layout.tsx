@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Barlow_Condensed, Bellefair, Barlow } from "next/font/google";
+import { Barlow } from "next/font/google";
 import "./globals.css";
 
 const barlow = Barlow({ weight: ["400"], subsets: ["latin"] });
