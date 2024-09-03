@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
+import styles from "./nav.module.css";
 
 export default function Nav() {
   const [visibleNav, setVisibleNav] = useState(false);
@@ -14,7 +15,7 @@ export default function Nav() {
   };
 
   return (
-    <header className="primary-header flex">
+    <header className={`${styles.primaryHeader} flex`}>
       <div>
         <Link href="/">
           <Image
@@ -22,12 +23,14 @@ export default function Nav() {
             alt="logo"
             width={48}
             height={48}
-            className="logo"
+            className={styles.logo}
           />
         </Link>
       </div>
       <button
-        className={`mobile-nav-toggle ${visibleNav ? "close-nav-img" : ""}`}
+        className={`${styles.mobileNavToggle} ${
+          visibleNav ? `${styles.closeNavImage}` : ""
+        }`}
         aria-controls="primary-navigation"
         onClick={handleNavToggle}
       >
@@ -35,11 +38,11 @@ export default function Nav() {
           Menu
         </span>
       </button>
-      <nav>
+      <nav className={styles.nav}>
         <ul
           id="primary-navigation"
           data-visible={visibleNav}
-          className="primary-navigation underline-indicators flex"
+          className={`${styles.primaryNavigation} underline-indicators flex`}
         >
           <li className={`${pathname === "/" ? "active" : ""}`}>
             <Link className="uppercase text-white letter-spacing-2" href="/">
